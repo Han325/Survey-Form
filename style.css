@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.background {
+  position: fixed;
+  left: 0px;
+  bottom: -20px;
+  background: rgb(118,251,129);
+background: linear-gradient(35deg, rgba(118,251,129,1) 0%, rgba(88,214,141,1) 50%, rgba(0,212,255,1) 100%);
+  height: 40vh;
+  width: 100%;
+}
+
+#main {
+   margin: 5rem auto 0 auto;
+   padding: 0px;
+   height: 2350px;
+   width: 100%;  
+}
+
+@media (min-width: 576px) {
+  #main {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  #main {
+    max-width: 720px;
+  }
+}
+
+#title {
+  position: relative;
+  top: -50px;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 35px;
+  color: #28B463;
+  text-shadow: 0 1px 7px #85C1E9;
+}
+
+#description {
+  position: relative;
+  top:-60px;
+  text-align: center;
+  font-family: Poppins;
+  font-size:15px;
+  color: #3498DB;
+}
+
+#survey-form {
+  position: relative;
+  top: -20px;
+  border-radius: 20px;
+  background-color: white;
+  padding:70px;
+  font-family: Poppins;
+  color: #566573;
+  outline: none;
+  border-color: white;
+  box-shadow: 0 0 10px #71DF9E;
+}
+
+#form-format-config {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+.format-form {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 0.5px solid #ccc;
+  border-radius: 9px;
+  box-sizing: border-box;
+  color: #515A5A;
+}
+
+.radio-config, .checkbox-config {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.85rem;
+  min-width: 1.25rem;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    vertical-align: -45%;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: Poppins;
+}
+
+.textarea-config {
+  min-height: 10px;
+  padding: 0.625rem;
+  resize: vertical;
+  font-family: Poppins;
+  width: 95.5%;
+  border-radius: 10px;
+  border: 0.5px solid #ccc;
+}  
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: #A569BD;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 0px solid #ccc;
+  font-family: Arial;
+  font-size: 20px;
+  color: #F7FBF7;
+}

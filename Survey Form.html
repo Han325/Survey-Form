@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MOS Survey Form</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="main">
+            <div class="background"></div>
+            <header>
+            <h1 id ="title">Mobile Operating System Survey Form</h1>
+            <p id= "description">Thanks for the time to fill in the details! Your information is very valuble to us.</p>
+            </header>
+            
+            <form id="survey-form">
+            <div id="form-format-config">
+                <label id="name-label" for="name">Name</label>
+                <input 
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Please enter your name"
+                    class="format-form"
+                    required
+                />
+            </div>
+            
+            <div id="form-format-config">
+                <label id="social-media-link" for="name">Social Media Handle</label>
+                <select id="socialmedia" name="socialmedia" class="format-form" required>
+                <option disabled selected value>Select an option</option>
+                <option value="twitter">Twitter</option>
+                <option value="instagram">Instagram</option>
+                <option value="facebook">Facebook</option>
+                </select>
+        
+                <input 
+                    type="text" 
+                    name="other" 
+                    placeholder="Please enter your username"
+                    class="format-form"
+                />  
+            </div>
+            
+            <div id="form-format-config">
+                <label id="email-label" for="email">Email</label>
+                <input 
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Please enter your e-mail"
+                    class="format-form"
+                    required
+                />
+            </div>
+        
+            <div id="form-format-config">
+                <label id="number-label" for="age">Age</label>
+                <input 
+                    type="number"
+                    id="number"
+                    name="age"
+                    placeholder="Please enter your age"
+                    min = "13"
+                    max = "100"
+                    class="format-form"
+                />
+            </div>
+        
+            <div id="form-format-config">
+                <p>Which best describes your type of usage?</p>
+                <select id="dropdown" name="usage" class="format-form" required>
+                <option disabled selected value>Type of User</option>
+                <option value="student">Lite</option>
+                <option value="job">Casual</option>
+                <option value="learner">Power-user</option>
+                <option value="SoftEnthusiast">Software Enthusiast</option>
+                <option value="other">Other</option>
+                </select>
+            </div>
+        
+            <div id="form-format-config">
+                <p>What is your main mobile operating system for daily use?</p>
+                <label>
+                <input
+                    name="Os"
+                    value="iOS"
+                    type="radio"
+                    class="radio-config"
+                />iOS<br>
+                
+                <input
+                    name="Os"
+                    value="Android"
+                    type="radio"
+                    class="radio-config"
+                />Android<br>
+        
+                <input
+                    name="Os"
+                    value="Windows Phone"
+                    type="radio"
+                    class="radio-config"
+                />Windows Phone<br>
+                </label>
+            </div>
+            
+            <div id="form-format-config">
+                <p>What is the version of the mobile operating system of your choice?
+                </p>
+            <textarea
+                id="version"
+                name="version"
+                placeholder="Enter your version number here"
+                class="textarea-config"
+                ></textarea>
+            </div>
+            
+            <div id="form-format-config">
+            <p>
+                What are the features that made you prefer this mobile operating system? (Select all that apply.)
+            </p>
+            <label>
+                <input
+                    name="customization"
+                    type="Checkbox"
+                    value="customization"
+                    class="checkbox-config"
+                />Customization<br></label>
+            
+            <label>
+                <input
+                    name="privacy"
+                    type="Checkbox"
+                    value="privacy"
+                    class="checkbox-config"
+                />Privacy<br></label>
+            
+            <label>
+                <input
+                    name="stability"
+                    type="Checkbox"
+                    value="stability"          
+                    class="checkbox-config"
+                />Stability<br></label>
+            
+            <label>
+                <input
+                    name="performance"
+                    type="Checkbox"
+                    class="checkbox-config"
+                    value="performance"
+                />Performance<br></label>
+            
+            <label>
+                <input
+                    name="ease-of-use"
+                    type="Checkbox"
+                    value="ease-of-use"
+                    class="checkbox-config"
+        
+                />Ease of use<br></label>
+            
+            <label>
+                <input
+                    name="ecosystem"
+                    type="Checkbox"
+                    value="ecosystem"
+                    class="checkbox-config"
+                />Ecosystem<br></label>
+            
+            <label>
+                <input
+                    name="updates"
+                    type="Checkbox"
+                    value="updates"
+                    class="checkbox-config"
+                />Updates<br></label>
+            </div>
+            
+            <div id="form-format-config">
+            <p> What are the weakness of your choice of mobile operating system?</p>
+            
+            <label>
+                <input
+                    name="customization"
+                    type="Checkbox"
+                    value="customization"
+                    class="checkbox-config"
+                />Customization<br></label>
+            
+            <label>
+                <input
+                    name="privacy"
+                    type="Checkbox"
+                    value="privacy"
+                    class="checkbox-config"
+                />Privacy<br></label>
+            
+            <label>
+                <input
+                    name="stability"
+                    type="Checkbox"
+                    value="stability"
+                    class="checkbox-config"
+                />Stability<br></label>
+            
+            <label>
+                <input
+                    name="performance"
+                    type="Checkbox"
+                    value="performance"
+                    class="checkbox-config"
+                />Performance<br></label>
+            
+            <label>
+                <input
+                    name="ease-of-use"
+                    type="Checkbox"
+                    value="ease-of-use"
+                    class="checkbox-config"
+                />Ease of use<br></label>
+            
+            <label>
+                <input
+                    name="ecosystem"
+                    type="Checkbox"
+                    value="ecosystem"
+                    class="checkbox-config"
+                />Ecosystem<br></label>
+            
+            <label>
+                <input
+                    name="updates"
+                    type="Checkbox"
+                    value="updates"
+                    class="checkbox-config"
+                />Updates<br></label>
+            </div>
+            
+            <div id="form-format-config">
+                <p>
+                Will you see yourself using two mobile operating systems simultaneously?         </p>
+                <label>
+                <input
+                    name="choice"
+                    value="Yes"
+                    type="radio"
+                    class="radio-config"
+                />Yes<br>
+                
+                <input
+                    name="choice"
+                    value="No"
+                    type="radio"
+                    class="radio-config"
+        
+                />No
+                </label>
+            </div>
+            
+            <div id="form-format-config">
+                <p>Any suggestions or comments?
+                </p>
+            <textarea
+                id="comments"
+                name="comments"
+                placeholder="Type here..."
+                class="textarea-config"
+                ></textarea>
+            </div>
+            
+            <div>
+                <button type="submit" id="submit" class="submit-button">
+                Submit
+                </button>
+            </div>
+            </div>
+    </body>
+</html>
